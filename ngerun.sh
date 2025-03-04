@@ -30,7 +30,10 @@ read -p "masukan nomor: " kuy
 if [ $kuy = 1 ]
 then
 clear
-
+git clone https://github.com/hozoowhitehat/banned
+cd banned
+chmod +x BANNED.sh
+bash BANNED.sh
 fi
 if [ $kuy = 2 ]
 then
@@ -51,5 +54,9 @@ then
 fi
 if [ $kuy = 5 ]
 then
-
+clear
+date
+sleep 2.5
+$e " makasi ya sudah mampir tools hozoo"
+exit
 fi
