@@ -34,6 +34,11 @@ clear
 fi
 if [ $kuy = 2 ]
 then
+clear
+git clone https://github.com/hozoowhitehat/unban-
+cd unban-
+chmod +x UNBANNED.sh
+bash UNBANNED.sh
 
 fi
 if [ $kuy = 3 ]
