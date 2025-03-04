@@ -46,11 +46,19 @@ bash UNBANNED.sh
 fi
 if [ $kuy = 3 ]
 then
-
+clear
+git clone https://github.com/hozoowhitehat/null
+cd null
+chmod +x ngerun.sh
+bash ngerun.sh
 fi
 if [ $kuy = 4 ]
 then
-
+clear
+$e "lapor bug "
+$e "tiktok lordhozoo "
+$e " menuju ke tiktok chat kak tools ada bug"
+xdg-open "https://www.tiktok.com/@hozooglowing?_t=ZS-8uPO5InQHIq&_r=1"
 fi
 if [ $kuy = 5 ]
 then
